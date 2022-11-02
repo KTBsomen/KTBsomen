@@ -8,3 +8,6 @@
 KTBsomen/KTBsomen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+Some Linux CMDS:
+#find and replace string in all files
+>>> grep -l -r 'search_term' | xargs sed -i 's@ SEARCH_TERM @ REPLACE_TERM @g'
