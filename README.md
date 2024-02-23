@@ -12,3 +12,19 @@ You can click the Preview link to take a look at your changes.
 Some Linux CMDS:
 #find and replace string in all files
 >>> grep -l -r 'search_term' | xargs sed -i 's@ SEARCH_TERM @ REPLACE_TERM @g'
+
+
+# Initialize Git repository
+git init
+
+# Add files to staging area
+git add .
+
+# Commit changes
+git commit -m "Your commit message"
+
+# Add remote repository
+git remote add origin <repository_url>
+
+# Push code to GitHub
+git push -u origin master
